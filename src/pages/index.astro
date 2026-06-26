@@ -16,7 +16,7 @@
         <p class="greeting">Hi, I'm</p>
         <h1>Asad</h1>
         <h2>AI Agent Builder & Digital Product Creator</h2>
-        <p class="bio">I build AI-powered agents, automation workflows, and web applications that solve real-world problems. Specialising in n8n, AI tools, and modern web technologies.</p>
+        <p class="bio">I build AI-powered agents, automation workflows, RAG systems and digital products that solve real-world problems — self-taught, driven by curiosity and a passion for making AI work for people.</p>
         <div class="hero-buttons">
           <a href="#projects" class="btn-primary">View My Work</a>
           <a href="#contact" class="btn-secondary">Get In Touch</a>
@@ -24,11 +24,99 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-inner">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm a self-taught AI builder from <strong>Pakistan</strong> who has spent the last several months learning, building and shipping AI-powered projects entirely on my own.</p>
+            <br/>
+            <p>I started from zero — no formal coding background — and taught myself how to build AI agents, RAG systems, automation workflows and web applications by diving deep into the tools and figuring things out hands-on. Everything in this portfolio was built by me, from scratch, as proof that I can learn fast and deliver real products.</p>
+            <br/>
+            <p>I'm now looking for my <strong>first opportunity</strong> — whether that's a full-time role, freelance work, or an entry-level position — where I can contribute, keep growing, and bring genuine value through AI and automation.</p>
+          </div>
+          <div class="skills-box">
+            <h3>What I Work With</h3>
+            <div class="skill-group">
+              <p class="skill-label">🤖 AI & LLMs</p>
+              <div class="skill-tags">
+                <span>Anthropic Claude</span>
+                <span>Google Gemini</span>
+                <span>Groq</span>
+                <span>Prompt Engineering</span>
+                <span>AI Agents</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <p class="skill-label">🧠 RAG & Chatbots</p>
+              <div class="skill-tags">
+                <span>Flowise</span>
+                <span>RAG Systems</span>
+                <span>HuggingFace</span>
+                <span>Vector Stores</span>
+                <span>Document AI</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <p class="skill-label">⚙️ Automation</p>
+              <div class="skill-tags">
+                <span>n8n</span>
+                <span>Workflow Automation</span>
+                <span>Gmail API</span>
+                <span>Google Sheets</span>
+                <span>WhatsApp API</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <p class="skill-label">🌐 Web & Deployment</p>
+              <div class="skill-tags">
+                <span>Next.js</span>
+                <span>Vercel</span>
+                <span>Astro</span>
+                <span>Tailwind CSS</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <p class="skill-label">📈 AI Use Cases</p>
+              <div class="skill-tags">
+                <span>SEO Content</span>
+                <span>Marketing Copy</span>
+                <span>Lead Generation</span>
+                <span>Email Automation</span>
+                <span>Resume Building</span>
+                <span>HR Compliance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- PROJECTS -->
     <section id="projects">
       <h2 class="section-title">Projects</h2>
-      <p class="section-subtitle">A collection of AI agents and web applications I've built</p>
+      <p class="section-subtitle">AI agents, RAG systems and web applications I've built</p>
 
+      <!-- RAG SYSTEMS -->
+      <h3 class="category-title">🧠 AI RAG Systems</h3>
+      <div class="grid">
+
+        <div class="card">
+          <div class="card-icon">📄</div>
+          <h3>Document AI Chatbot</h3>
+          <p>An AI-powered RAG system built with Flowise that reads and understands any business document and answers customer questions accurately and instantly — 24/7 automated support.</p>
+          <div class="tags">
+            <span>Flowise</span><span>RAG</span><span>Groq</span><span>HuggingFace</span><span>Vector Store</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/greatman-786" target="_blank">GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- AI AGENTS -->
       <h3 class="category-title">🤖 AI Agents</h3>
       <div class="grid">
 
@@ -82,6 +170,7 @@
 
       </div>
 
+      <!-- WEB APPS -->
       <h3 class="category-title">🚀 Web Applications</h3>
       <div class="grid">
 
@@ -195,9 +284,10 @@
     <!-- CONTACT -->
     <section id="contact">
       <h2 class="section-title">Get In Touch</h2>
-      <p class="section-subtitle">I'm open to freelance work, full-time roles and collaborations</p>
+      <p class="section-subtitle">I'm open to freelance work, full-time roles, remote opportunities and entry-level positions</p>
       <div class="contact-links">
         <a href="https://github.com/greatman-786" target="_blank" class="contact-btn">GitHub</a>
+        <a href="https://www.linkedin.com/in/asad-ullah-b0190a236/" target="_blank" class="contact-btn">LinkedIn</a>
         <a href="mailto:asadullah541989@gmail.com" class="contact-btn">Email Me</a>
       </div>
     </section>
@@ -215,7 +305,6 @@
     line-height: 1.6;
   }
 
-  /* HERO */
   #hero {
     min-height: 100vh;
     display: flex;
@@ -226,12 +315,7 @@
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #0a0a0a 100%);
   }
 
-  .greeting {
-    color: #6366f1;
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-  }
+  .greeting { color: #6366f1; font-size: 1.2rem; font-weight: 500; margin-bottom: 0.5rem; }
 
   #hero h1 {
     font-size: clamp(3rem, 8vw, 6rem);
@@ -242,175 +326,75 @@
     margin-bottom: 1rem;
   }
 
-  #hero h2 {
-    font-size: clamp(1.2rem, 3vw, 1.8rem);
-    font-weight: 400;
-    color: #a3a3a3;
-    margin-bottom: 1.5rem;
-  }
+  #hero h2 { font-size: clamp(1.2rem, 3vw, 1.8rem); font-weight: 400; color: #a3a3a3; margin-bottom: 1.5rem; }
 
-  .bio {
-    max-width: 600px;
-    margin: 0 auto 2rem;
-    color: #737373;
-    font-size: 1.05rem;
-  }
+  .bio { max-width: 600px; margin: 0 auto 2rem; color: #737373; font-size: 1.05rem; }
 
-  .hero-buttons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+  .hero-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
 
   .btn-primary {
     background: linear-gradient(135deg, #6366f1, #a855f7);
-    color: white;
-    padding: 0.8rem 2rem;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: transform 0.2s, box-shadow 0.2s;
+    color: white; padding: 0.8rem 2rem; border-radius: 50px;
+    text-decoration: none; font-weight: 600; transition: transform 0.2s, box-shadow 0.2s;
   }
-
-  .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.4);
-  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(99,102,241,0.4); }
 
   .btn-secondary {
-    border: 2px solid #6366f1;
-    color: #6366f1;
-    padding: 0.8rem 2rem;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.2s;
+    border: 2px solid #6366f1; color: #6366f1; padding: 0.8rem 2rem;
+    border-radius: 50px; text-decoration: none; font-weight: 600; transition: all 0.2s;
   }
+  .btn-secondary:hover { background: #6366f1; color: white; }
 
-  .btn-secondary:hover {
-    background: #6366f1;
-    color: white;
-  }
+  #about { padding: 5rem 2rem; background: #0d0d0d; }
+  .about-inner { max-width: 1200px; margin: 0 auto; }
 
-  /* PROJECTS */
-  #projects {
-    padding: 5rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+  .about-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 3rem;
   }
+  @media (max-width: 768px) { .about-grid { grid-template-columns: 1fr; } }
 
-  .section-title {
-    font-size: 2.5rem;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 0.5rem;
-  }
+  .about-text p { color: #a3a3a3; font-size: 1rem; line-height: 1.8; }
+  .about-text strong { color: #e5e5e5; }
 
-  .section-subtitle {
-    text-align: center;
-    color: #737373;
-    margin-bottom: 3rem;
-  }
+  .skills-box { background: #111111; border: 1px solid #222; border-radius: 16px; padding: 2rem; }
+  .skills-box h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 1.5rem; color: #a855f7; }
+  .skill-group { margin-bottom: 1.2rem; }
+  .skill-label { font-size: 0.85rem; font-weight: 600; color: #737373; margin-bottom: 0.5rem; }
+  .skill-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .skill-tags span { background: #1a1a2e; color: #6366f1; padding: 0.2rem 0.7rem; border-radius: 50px; font-size: 0.78rem; font-weight: 500; }
 
-  .category-title {
-    font-size: 1.4rem;
-    font-weight: 700;
-    margin: 3rem 0 1.5rem;
-    color: #a855f7;
-  }
+  #projects { padding: 5rem 2rem; max-width: 1200px; margin: 0 auto; }
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-  }
+  .section-title { font-size: 2.5rem; font-weight: 800; text-align: center; margin-bottom: 0.5rem; }
+  .section-subtitle { text-align: center; color: #737373; margin-bottom: 3rem; }
+  .category-title { font-size: 1.4rem; font-weight: 700; margin: 3rem 0 1.5rem; color: #a855f7; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
 
   .card {
-    background: #111111;
-    border: 1px solid #222;
-    border-radius: 16px;
-    padding: 1.8rem;
-    transition: transform 0.2s, border-color 0.2s;
+    background: #111111; border: 1px solid #222; border-radius: 16px;
+    padding: 1.8rem; transition: transform 0.2s, border-color 0.2s;
   }
+  .card:hover { transform: translateY(-4px); border-color: #6366f1; }
+  .card-icon { font-size: 2rem; margin-bottom: 1rem; }
+  .card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.75rem; }
+  .card p { color: #737373; font-size: 0.95rem; margin-bottom: 1rem; }
 
-  .card:hover {
-    transform: translateY(-4px);
-    border-color: #6366f1;
-  }
+  .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+  .tags span { background: #1a1a2e; color: #6366f1; padding: 0.25rem 0.75rem; border-radius: 50px; font-size: 0.8rem; font-weight: 500; }
 
-  .card-icon {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  .card h3 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-  }
-
-  .card p {
-    color: #737373;
-    font-size: 0.95rem;
-    margin-bottom: 1rem;
-  }
-
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .tags span {
-    background: #1a1a2e;
-    color: #6366f1;
-    padding: 0.25rem 0.75rem;
-    border-radius: 50px;
-    font-size: 0.8rem;
-    font-weight: 500;
-  }
-
-  .card-links {
-    display: flex;
-    gap: 1rem;
-  }
-
-  .card-links a {
-    color: #a855f7;
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 600;
-    transition: color 0.2s;
-  }
-
+  .card-links { display: flex; gap: 1rem; }
+  .card-links a { color: #a855f7; text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: color 0.2s; }
   .card-links a:hover { color: #ec4899; }
 
-  /* CONTACT */
-  #contact {
-    padding: 5rem 2rem;
-    text-align: center;
-    background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
-  }
+  #contact { padding: 5rem 2rem; text-align: center; background: linear-gradient(135deg, #0a0a0a, #1a1a2e); }
 
-  .contact-links {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin-top: 2rem;
-    flex-wrap: wrap;
-  }
+  .contact-links { display: flex; gap: 1rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap; }
 
   .contact-btn {
     background: linear-gradient(135deg, #6366f1, #a855f7);
-    color: white;
-    padding: 0.8rem 2rem;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: transform 0.2s;
+    color: white; padding: 0.8rem 2rem; border-radius: 50px;
+    text-decoration: none; font-weight: 600; transition: transform 0.2s;
   }
-
   .contact-btn:hover { transform: translateY(-2px); }
 </style>
